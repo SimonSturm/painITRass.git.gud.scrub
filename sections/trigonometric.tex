@@ -1,0 +1,94 @@
+\section{Trigonometrie}
+\begin{tabular}{l|l|l|l|l|l}
+ $f(x)$ &  $X_{f}$ & $Y_{f}$ & $x_0$ & Sym  \\\hline
+%%%
+$\sin(x)$ &  $\mathbb{R}$ & $[-1,1]$ & $k\pi$ & ungerade\\
+%%%
+$\cos(x)$ & $\mathbb{R}$ & $[-1,1]$ & ${\pi\over 2} + k\pi$ & gerade\\
+%%%
+$\tan(x)$ & $[{-\pi\over 2},{\pi\over 2}]$ & $\mathbb{R}$ & $k\pi$ & ungerade\\
+%%%
+$\cot(x)$ & $[0,\pi]$ & $\mathbb{R}$ & ${\pi\over 2} + k\pi$ & \\
+%%%
+$\arcsin(x)$ & $[-1,1]$ & $[{-\pi\over 2},{\pi\over 2}]$ & 0 & ungerade\\
+%%%
+$\arccos(x)$ & $[-1,1]$ & $[0,\pi]$ & $1$ & \\
+%%%
+$\arctan(x)$ & $\mathbb{R}$ & $[{-\pi\over 2},{\pi\over 2}]$ & 0 & ungerade\\
+%%%
+$\text{arccot}(x)$ & $\mathbb{R}$ & $[0,\pi]$ & & \\
+\end{tabular}\\
+
+
+$\sin(x)=\cos(x-{\pi\over2})=\frac{e^{ix}-e^{-ix}}{2i}=\pm\sqrt{1-\cos^2(x)}$\\
+$\sin(x)=\pm\frac{\tan(x)}{\sqrt{1+\tan^2(x)}}=\pm\frac{1}{\sqrt{1+cot^2(x)}}$ \\
+$\cos(x)=\sin(x+{\pi\over2})=\frac{e^{ix}+e^{-ix}}{2}=\pm\sqrt{1-\sin^2(x)}$\\
+$\cos(x)=\pm\frac{1}{\sqrt{1+\tan^2(x)}}=\pm\frac{\cot(x)}{\sqrt{1+\cot^2(x)}}$\\
+$\tan(x)=\frac{\sin(x)}{\cos(x)}=\pm\frac{\sin(x)}{\sqrt{1-sin^2(x)}}=\pm\frac{\sqrt{1-\cos^2(x)}}{\cos(x)}=\frac{1}{\cot(x)}$\\
+$\cot(x)=\frac{1}{\tan(x)}$\\
+%
+$\arcsin(x)=-i~ln(ix+\sqrt{(1-x^2)})$\\
+$\arccos(x)=-i~ln(x+i\sqrt{(1-x^2)})$\\
+%Additionstheoreme
+$\sin(a\pm b)=\sin(a)\cos(b) \pm \sin(b)\cos(a)$\\
+$\cos(a\pm b)=\cos(a)\cos(b) \mp \sin(a)\sin(b)$\\
+$\tan(a\pm b)=\frac{\tan(a)\pm tan(b)}{1 \mp \tan(a)\tan(b)}$\\
+
+%Doppelwinkelfunktionen
+$\sin (2x)= 2 \sin x \; \cos x = \frac{2 \tan x}{ 1 + \tan^2 x }$\\
+$\cos (2x)=\cos^2 x -\sin^2 x =1-2\sin^2 x=$\\
+$2\cos^2 x-1=\frac{1-\tan^2 x }{1+\tan^2 x } $\\
+$\cos (2x) \cos (x) + \sin (2x) \sin (x) = \cos (x)$\\
+$\tan (2x)= \frac{ 2 \tan x }{ 1 - \tan^2 x } = \frac{2}{ \cot x - \tan x }$\\
+$\cot (2x)= \frac{ \cot^2 x - 1 }{2 \cot x } = \frac{ \cot x - \tan x}{2}$\\
+%
+$\sin^2(x)+\cos^2(x)=1$\\
+$1-\tan^2(x)=\frac{1}{1-\sin^2(x)}$\\
+$1-\cot^2(x)=\frac{1}{1-\cos^2(x)}$\\
+%
+$\arcsin(x)+\arccos(x)=\frac{\pi}{2}\quad : \quad \forall x \in [-1,1] $\\
+$\arccos(x)=\arcsin(\sqrt{1-x^2})$\\
+%
+$\arctan(x)+\text{arccot}(x)=\frac{\pi}{2}\quad : \quad \forall x \in \mathbb{R} $\\
+
+\begin{tabular}{l|l|l|l|l|l}
+ $f(x)$ &  $X_{f}$ & $Y_{f}$ & $x_0$ & Sym  \\\hline
+%%%
+$\sinh(x)$ &  $\mathbb{R}$ & $\mathbb{R}$ & $0$ & ungerade\\
+%%%
+$\cosh(x)$ & $\mathbb{R}$ & $[-1,\infty[$ & $-$ & gerade\\
+%%%
+$tanh(x)$ & $\mathbb{R}$ & $]-1,1[$ & $0$ & ungerade\\
+%%%
+$\coth(x)$ & $\mathbb{R}\backslash\{0\}$ & \shortstack[c]{$]-\infty,-1[$\\$\cup ~ ]1,\infty[$} & $- $ & ungerade \\
+%%%
+$arsinh(x)$ & $\mathbb{R}$ & $\mathbb{R}$ & 0 & ungerade\\
+%%%
+$arcosh(x)$ & $[1,\infty[$ & $[0,\infty[$ & $1$ & \\
+%%%
+$artanh(x)$ & $]-1,1[$ & $\mathbb{R}$ & 0 & ungerade\\
+%%%
+$\text{arcoth}(x)$ & \shortstack[c]{$]-\infty,-1[$\\$\cup ~ ]1,\infty[$} & $\mathbb{R}\backslash\{0\}$ & & ungerade \\
+\end{tabular}
+
+$\sinh(x)=\frac{e^{x}-e^{-x}}{2}$\\
+$\cosh(x)=\frac{e^{x}+e^{-x}}{2}$\\
+$\tanh(x)=\frac{e^{x}-e^{-x}}{e^{x}+e^{-x}}$\\
+$\coth(x)=\frac{e^{x}+e^{-x}}{e^{x}-e^{-x}}$\\
+
+$\sinh(x\pm y)=sinh(x)cosh(y)\pm cosh(x)sinh(y)$\\
+$\cosh(x\pm y)=cosh(x)cosh(y)\pm sinh(x)sinh(y)$\\
+$\tanh(x\pm y)=\frac{tahn(x)\pm tanh(y)}{1\pm tanh(x)tanh(y)}$\\
+
+$\sinh(x)+cosh(x)=e^x$\\
+$\cosh(x)-sinh(x)=e^{-x}$\\
+
+$\cosh^2(x)-sinh^2(x)=1$\\
+$(\cosh(x)\pm sinh(x))^n=cosh(nx)\pm sinh(nx)=e^{\pm nx}$\\
+
+$2\cdot \cosh^2(x) = 1+\cosh(2x)$\\
+
+$\arsinh(x)=ln(x+\sqrt{x^2+1})\quad :x\in\mathbb{R}$\\
+$\arcosh(x)=ln(x+\sqrt{x^2+1})\quad :x\ge 1$\\
+$\artanh(x)={1\over2}ln(\frac{1+x}{1-x})\quad :|x|< 1$\\
+$\arcoth(x)={1\over2}ln(\frac{x+1}{x-1})\quad :|x|> 1$\\
